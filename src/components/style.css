@@ -1,0 +1,61 @@
+@keyframes popIn {
+	0% { opacity: 0; transform: scale(.95); }
+	100% { opacity: 1; transform: scale(1); }
+  }
+
+@keyframes popOut {
+	100% { opacity: 1; transform: scale(1); }
+	0% { opacity: 0; transform: scale(.95); }
+}
+
+html * {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #222529;;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #303841;;
+}
+
+
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.button:hover{
+	cursor: pointer;
+	background-color: #0399a1!important;
+}
+
+.pcell:hover{
+	cursor: pointer;
+	background-color: #00adb5!important;
+	color: #303841!important;
+}
+
+a:hover{
+	color: #0399a1!important;
+}
+
+.proFull{
+	animation: popIn .8s;
+}
+
+.alink{
+	animation: popIn .8s;
+}
