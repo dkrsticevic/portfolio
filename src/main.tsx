@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './pages/Home.tsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 import "./components/style.css"
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(

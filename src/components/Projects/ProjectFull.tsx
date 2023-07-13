@@ -37,7 +37,7 @@ function ProjectFull({data, closeProject}: ProjectFull) {
         </div> 
         : undefined
         }
-        <img draggable="false" style={{position: "absolute", right: "0px", bottom: "0px", height: "80%", borderRadius: "100% 0px 10px 10px", width: "100%", objectFit: "cover", opacity: "10%"}} src={data.image}></img> 
+        <img rel="preload" draggable="false" style={{position: "absolute", right: "0px", bottom: "0px", height: "80%", borderRadius: "100% 0px 10px 10px", width: "100%", objectFit: "cover", opacity: "10%"}} src={data.image}></img> 
     </div>
   )
 }
