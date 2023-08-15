@@ -30,7 +30,7 @@ function Projects() {
       <h1 style={{width: '100%', maxWidth: "800px", marginBottom: "20px", marginLeft: "20px", color: "#eeeeee",}}>Projects</h1>
       <Row md={3} xs={2} lg={3} xl={2} style={{display: "flex", width: '100%', maxWidth: "800px", justifyContent: "left", }}> 
         {[...dataMap.keys()].map(data => (
-            <Col style={{marginBottom: "20px"}}> 
+            <Col key={data} style={{marginBottom: "20px"}}> 
             <ProjectCell key={data} data={dataMap.get(data)!} selectProject={selectProject}></ProjectCell>
             </Col>
         ))}
